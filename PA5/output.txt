@@ -1,0 +1,58 @@
+title|director|year|genre|artist
+Exception: duplicate entry
+The Matrix|The Wachowskis|1999|Sci-Fi:Action|Keanu Reeves:Laurence Fishburne:Carrie-Anne Moss
+Exception: missing field
+NoArtistMovie|Some Director|2020|Comedy
+Exception: missing field
+JustGarbage|Nope
+Exception: duplicate entry
+Parasite|Bong Joon-ho|2019|Thriller:Drama|Song Kang-ho:Lee Sun-kyun:Cho Yeo-jeong
+8 unique entries
+search "Nolan" in "director"
+Inception|Christopher Nolan|2010|Sci-Fi:Thriller|Leonardo DiCaprio:Joseph Gordon-Levitt:Ellen Page
+Interstellar|Christopher Nolan|2014|Sci-Fi:Adventure:Drama|Matthew McConaughey:Anne Hathaway:Jessica Chastain
+search "Matrix" in "title"
+The Matrix|The Wachowskis|1999|Sci-Fi:Action|Keanu Reeves:Laurence Fishburne:Carrie-Anne Moss
+search "2019" in "year"
+Parasite|Bong Joon-ho|2019|Thriller:Drama|Song Kang-ho:Lee Sun-kyun:Cho Yeo-jeong
+Joker|Todd Phillips|2019|Drama:Psychological|Joaquin Phoenix:Robert De Niro
+search "Drama" in "genre"
+Parasite|Bong Joon-ho|2019|Thriller:Drama|Song Kang-ho:Lee Sun-kyun:Cho Yeo-jeong
+Interstellar|Christopher Nolan|2014|Sci-Fi:Adventure:Drama|Matthew McConaughey:Anne Hathaway:Jessica Chastain
+Joker|Todd Phillips|2019|Drama:Psychological|Joaquin Phoenix:Robert De Niro
+RandomMovie|Some Director|2022|Comedy:Drama|Random Actor
+The Social Network|David Fincher|2010|Drama:Biography|Jesse Eisenberg:Andrew Garfield:Justin Timberlake
+Exception: command is wrong
+search "Fishburne" in "cast"
+sort "title"
+Inception|Christopher Nolan|2010|Sci-Fi:Thriller|Leonardo DiCaprio:Joseph Gordon-Levitt:Ellen Page
+Interstellar|Christopher Nolan|2014|Sci-Fi:Adventure:Drama|Matthew McConaughey:Anne Hathaway:Jessica Chastain
+Joker|Todd Phillips|2019|Drama:Psychological|Joaquin Phoenix:Robert De Niro
+MissingYearMovie|Some Director||Comedy|Some Actor
+Parasite|Bong Joon-ho|2019|Thriller:Drama|Song Kang-ho:Lee Sun-kyun:Cho Yeo-jeong
+RandomMovie|Some Director|2022|Comedy:Drama|Random Actor
+The Matrix|The Wachowskis|1999|Sci-Fi:Action|Keanu Reeves:Laurence Fishburne:Carrie-Anne Moss
+The Social Network|David Fincher|2010|Drama:Biography|Jesse Eisenberg:Andrew Garfield:Justin Timberlake
+sort "year"
+The Matrix|The Wachowskis|1999|Sci-Fi:Action|Keanu Reeves:Laurence Fishburne:Carrie-Anne Moss
+Inception|Christopher Nolan|2010|Sci-Fi:Thriller|Leonardo DiCaprio:Joseph Gordon-Levitt:Ellen Page
+The Social Network|David Fincher|2010|Drama:Biography|Jesse Eisenberg:Andrew Garfield:Justin Timberlake
+Interstellar|Christopher Nolan|2014|Sci-Fi:Adventure:Drama|Matthew McConaughey:Anne Hathaway:Jessica Chastain
+Parasite|Bong Joon-ho|2019|Thriller:Drama|Song Kang-ho:Lee Sun-kyun:Cho Yeo-jeong
+Joker|Todd Phillips|2019|Drama:Psychological|Joaquin Phoenix:Robert De Niro
+RandomMovie|Some Director|2022|Comedy:Drama|Random Actor
+Exception: command is wrong
+sort "actor"
+sort "genre"
+MissingYearMovie|Some Director||Comedy|Some Actor
+RandomMovie|Some Director|2022|Comedy:Drama|Random Actor
+Joker|Todd Phillips|2019|Drama:Psychological|Joaquin Phoenix:Robert De Niro
+The Social Network|David Fincher|2010|Drama:Biography|Jesse Eisenberg:Andrew Garfield:Justin Timberlake
+The Matrix|The Wachowskis|1999|Sci-Fi:Action|Keanu Reeves:Laurence Fishburne:Carrie-Anne Moss
+Inception|Christopher Nolan|2010|Sci-Fi:Thriller|Leonardo DiCaprio:Joseph Gordon-Levitt:Ellen Page
+Interstellar|Christopher Nolan|2014|Sci-Fi:Adventure:Drama|Matthew McConaughey:Anne Hathaway:Jessica Chastain
+Parasite|Bong Joon-ho|2019|Thriller:Drama|Song Kang-ho:Lee Sun-kyun:Cho Yeo-jeong
+Exception: command is wrong
+invalid command example
+Exception: command is wrong
+sort year extra_stuff

@@ -1,0 +1,12 @@
+id:string:single|album_title:string:single|artist_name:string:single|release_year:integer:single|is_explicit:bool:single|tags:string:multi|rating:double:single|label:string:single|duration:string:single|languages:string:single
+201|Hemispheres|Rush|1978|false|Progressive Rock|4.6|Mercury|37:15|English
+202|Backspacer|Pearl Jam|2009|false|Alternative Rock:Grunge|4.2|Monkeywrench|36:38|English
+203|The Resistance|Muse|2009|true|Alternative Rock:Progressive Rock|AB4|Warner|54:15|English
+204|Lateralus|Tool|2001|true|Progressive Metal|4|Volcano|78:51|English
+205|Origin of Symmetry|Muse|2001|true|Alternative Rock:Art Rock|4.7|Mushroom|51:50|English
+201|Hemispheres Duplicate|Rush|1978|false|Progressive Rock|4.6|Mercury|37:15|English
+206|Parachutes||2000|false|Alternative Rock|4.3|Parlophone|41:45|English
+207|A Rush of Blood to the Head|Coldplay|2002|false||4.4|Parlophone|54:12|English
+208|Viva la Vida|Coldplay|2008|false|Alternative Rock:Baroque Pop||Parlophone|45:02|English
+209|Ghost Stories|Coldplay|2014|false|Synthpop:Electronic|4.0|Parlophone|39:36|English
+210|Everyday Life|Coldplay|2019|false|Art Rock:Worldbeat|4.1|Parlophone|53:18|English
